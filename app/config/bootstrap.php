@@ -41,7 +41,5 @@
  *
  */
 
-App::import('Vendor', 'smarty', array('file' => 'Smarty.class.php'));
-
 //EOF
 ?>

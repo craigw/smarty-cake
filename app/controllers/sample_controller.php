@@ -1,11 +1,12 @@
 <?php
-class SampleController extends AppController {
+App::import('Controller', 'Application');
+
+class SampleController extends ApplicationController {
 
 	var $name = 'Sample';
 	var $uses = null;
 
 	public function index() {
-		return "Hi!";
 	}
 }
 ?>
